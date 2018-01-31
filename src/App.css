@@ -1,0 +1,94 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.App {
+
+
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+/* Header*/
+.header {
+  background: #29abe2;
+
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+}
+
+.header a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.header h2 {
+  padding: 0.3em 0 0.3em 0.5em;
+  font-weight: bold;
+}
+
+/* End header */
+
+
+/* LoginOption */
+
+.loginOption button {
+  background: #29abe2;
+  color: white;
+  padding: 7px 20px;
+  border-radius: 40px;
+  border: none;
+  transition: 0.1s ease-out;
+  cursor: pointer;
+  margin-top: 1em;
+}
+
+.loginOption button:hover {
+  background: #5e96cf;
+  box-shadow: 0 7px 29px 0 rgba(41,171,226,0.55);
+
+
+}
+.loginOption p {
+  font-size: 1.4em;
+  font-weight: 500;
+}
+
+.loginOption {
+  margin-top: 4em;
+}
+
+.col-center-block {
+    margin: 0 auto;
+}
+
+.loginOption a {
+  display: block;
+  margin-top: 1em;
+}
+
+.loginOption label {
+  margin-top: 1em;
+}
+
+.loginOption i {
+  font-size: 1.3em;
+}
+/* End LoginOption */
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+  .loginOption {
+    text-align: center;
+  }
+}
